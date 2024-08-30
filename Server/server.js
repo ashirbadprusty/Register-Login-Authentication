@@ -11,7 +11,8 @@ app.use(express.json());
 //2) ROUTE
 app.use("/api/auth", authRouter);
 app.get('/',(req,res)=>{
-  res.send('Welocome to Server'));
+  res.send('Welocome to Server')
+});
 
 //3) MONGO DB CONNECTION
 mongoose
